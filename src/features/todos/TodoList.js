@@ -12,7 +12,7 @@ const TodoList = () => {
     const [newTodo, setNewTodo] = useState('')
 
     const {
-        data: todos,
+        data: todos, // renaming data to todos
         isLoading,
         isSuccess,
         isError,
